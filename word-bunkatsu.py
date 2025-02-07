@@ -5,7 +5,7 @@ import pandas as pd
 
 st.title("単語分割アプリ")
 
-text = st.text_area("文章を入力してください。", "昨日、友達と映画を見に行った。")
+text = st.text_area("文章を入力してください。", "昨日インスタに写真をアップした。")
 
 if text and st.button("単語を分割する"):
     tokenizer = Tokenizer()
