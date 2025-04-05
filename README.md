@@ -24,9 +24,14 @@
 
  ```bash
 pip install streamlit janome pandas
-streamlit run app.py
+streamlit run word-bunkatsu.py
 
- #### ライセンス
+🪪 ライセンス
+ このプロジェクトは MIT ライセンスのもとで公開されています。
+自由に利用・改変・再配布いただけますが、作者は一切の責任を負いません。
+詳しくは LICENSE をご確認ください。
+
+Copyright (c) 2025 かんたんAI教育ラボ
 
 　MIT License
 
