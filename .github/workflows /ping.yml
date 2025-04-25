@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Curl your Streamlit App (word-morpheme)
-        run: curl -s https://attentionvisualize-brzyt2bcu5xw4csp3jfcem.streamlit.app/
+        run: curl -s https://word-morpheme-ca5oewxqcdq6xvhcwqgoaz.streamlit.app/
