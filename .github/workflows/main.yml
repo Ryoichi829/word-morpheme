@@ -1,0 +1,12 @@
+name: Keep Streamlit App (word-morpheme) Alive
+
+on:
+  schedule:
+    - cron: "15 * * * *"  # 15分ごとに実行（UTC時間）
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl your Streamlit App (word-morpheme)
+        run: curl -s https://word-morpheme-ca5oewxqcdq6xvhcwqgoaz.streamlit.app/
